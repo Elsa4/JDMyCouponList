@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TDAllNaviButtonView">
+            <rect key="frame" x="0.0" y="0.0" width="133" height="66"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Har-yg-L71">
+                    <rect key="frame" x="83" y="0.0" width="50" height="67"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="Mt9-Kh-tFQ"/>
+                    </constraints>
+                    <state key="normal" image="coupon_Btn"/>
+                </button>
+                <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coupon_navi" translatesAutoresizingMaskIntoConstraints="NO" id="FDT-yh-BEf">
+                    <rect key="frame" x="73" y="0.0" width="10" height="65"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="10" id="KkR-uN-kj6"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Har-yg-L71" secondAttribute="trailing" id="4Ov-4S-QlH"/>
+                <constraint firstItem="Har-yg-L71" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" constant="1" id="62h-W7-eqN"/>
+                <constraint firstAttribute="bottom" secondItem="FDT-yh-BEf" secondAttribute="bottom" constant="1" id="JcZ-cK-PgB"/>
+                <constraint firstItem="Har-yg-L71" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Q5b-dd-cQ9"/>
+                <constraint firstItem="FDT-yh-BEf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="oJc-Sg-0eD"/>
+                <constraint firstItem="Har-yg-L71" firstAttribute="leading" secondItem="FDT-yh-BEf" secondAttribute="trailing" id="rDy-hp-6cB"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="allBtn" destination="Har-yg-L71" id="n3l-Mc-1ZP"/>
+            </connections>
+            <point key="canvasLocation" x="410.86956521739131" y="143.30357142857142"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="coupon_Btn" width="16" height="16"/>
+        <image name="coupon_navi" width="32" height="47"/>
+    </resources>
+</document>

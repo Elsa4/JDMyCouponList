@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDF2EB2E23D1605D0090B280 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF2EB2D23D1605D0090B280 /* AppDelegate.m */; };
+		CDF2EB3123D1605D0090B280 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF2EB3023D1605D0090B280 /* SceneDelegate.m */; };
+		CDF2EB3423D1605D0090B280 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF2EB3323D1605D0090B280 /* ViewController.m */; };
+		CDF2EB3723D1605D0090B280 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF2EB3523D1605D0090B280 /* Main.storyboard */; };
+		CDF2EB3923D1605F0090B280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF2EB3823D1605F0090B280 /* Assets.xcassets */; };
+		CDF2EB3C23D1605F0090B280 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF2EB3A23D1605F0090B280 /* LaunchScreen.storyboard */; };
+		CDF2EB3F23D1605F0090B280 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF2EB3E23D1605F0090B280 /* main.m */; };
+		CDF2EB4923D1605F0090B280 /* JDMyCouponListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF2EB4823D1605F0090B280 /* JDMyCouponListTests.m */; };
+		CDF2EB5423D1605F0090B280 /* JDMyCouponListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF2EB5323D1605F0090B280 /* JDMyCouponListUITests.m */; };
+		CDF2EB7123D160B20090B280 /* TDAllNaviCouponItemsLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF2EB6323D160B10090B280 /* TDAllNaviCouponItemsLayout.m */; };
+		CDF2EB7223D160B20090B280 /* TDNaviViewCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDF2EB6423D160B10090B280 /* TDNaviViewCollectionCell.xib */; };
+		CDF2EB7323D160B20090B280 /* TDNaviViewCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF2EB6623D160B10090B280 /* TDNaviViewCollectionCell.m */; };
+		CDF2EB7423D160B20090B280 /* TDAllNaviButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDF2EB6823D160B10090B280 /* TDAllNaviButtonView.xib */; };
+		CDF2EB7523D160B20090B280 /* TDCouponNaviCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF2EB6923D160B10090B280 /* TDCouponNaviCollectionCell.m */; };
+		CDF2EB7623D160B20090B280 /* TDAllNaviCouponItemsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF2EB6B23D160B20090B280 /* TDAllNaviCouponItemsView.m */; };
+		CDF2EB7723D160B20090B280 /* TDCouponNaviCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDF2EB6D23D160B20090B280 /* TDCouponNaviCollectionCell.xib */; };
+		CDF2EB7823D160B20090B280 /* TDCouponNaviView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF2EB6F23D160B20090B280 /* TDCouponNaviView.m */; };
+		CDF2EB7923D160B20090B280 /* TDAllNaviButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF2EB7023D160B20090B280 /* TDAllNaviButtonView.m */; };
+		CDF2EB7D23D161600090B280 /* TDMyCouponChannelListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF2EB7B23D1615F0090B280 /* TDMyCouponChannelListModel.m */; };
+		CDF2EB8023D1633E0090B280 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF2EB7E23D1633D0090B280 /* UIColor+Hex.m */; };
+		CDF2EB8723D187DE0090B280 /* coupon_Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF2EB8423D187DD0090B280 /* coupon_Btn.png */; };
+		CDF2EB8823D187DE0090B280 /* coupon_Btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF2EB8523D187DE0090B280 /* coupon_Btn@2x.png */; };
+		CDF2EB8923D187DE0090B280 /* coupon_Btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF2EB8623D187DE0090B280 /* coupon_Btn@3x.png */; };
+		CDF2EB8D23D1880E0090B280 /* coupon_navi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF2EB8A23D1880E0090B280 /* coupon_navi@2x.png */; };
+		CDF2EB8E23D1880E0090B280 /* coupon_navi.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF2EB8B23D1880E0090B280 /* coupon_navi.png */; };
+		CDF2EB8F23D1880E0090B280 /* coupon_navi@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF2EB8C23D1880E0090B280 /* coupon_navi@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDF2EB4523D1605F0090B280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDF2EB2123D1605D0090B280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDF2EB2823D1605D0090B280;
+			remoteInfo = JDMyCouponList;
+		};
+		CDF2EB5023D1605F0090B280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDF2EB2123D1605D0090B280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDF2EB2823D1605D0090B280;
+			remoteInfo = JDMyCouponList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDF2EB2923D1605D0090B280 /* JDMyCouponList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDMyCouponList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF2EB2C23D1605D0090B280 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDF2EB2D23D1605D0090B280 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDF2EB2F23D1605D0090B280 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		CDF2EB3023D1605D0090B280 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		CDF2EB3223D1605D0090B280 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CDF2EB3323D1605D0090B280 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CDF2EB3623D1605D0090B280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDF2EB3823D1605F0090B280 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDF2EB3B23D1605F0090B280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDF2EB3D23D1605F0090B280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF2EB3E23D1605F0090B280 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDF2EB4423D1605F0090B280 /* JDMyCouponListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JDMyCouponListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF2EB4823D1605F0090B280 /* JDMyCouponListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDMyCouponListTests.m; sourceTree = "<group>"; };
+		CDF2EB4A23D1605F0090B280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF2EB4F23D1605F0090B280 /* JDMyCouponListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JDMyCouponListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF2EB5323D1605F0090B280 /* JDMyCouponListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDMyCouponListUITests.m; sourceTree = "<group>"; };
+		CDF2EB5523D1605F0090B280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF2EB6223D160B10090B280 /* TDCouponNaviView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDCouponNaviView.h; sourceTree = "<group>"; };
+		CDF2EB6323D160B10090B280 /* TDAllNaviCouponItemsLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAllNaviCouponItemsLayout.m; sourceTree = "<group>"; };
+		CDF2EB6423D160B10090B280 /* TDNaviViewCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TDNaviViewCollectionCell.xib; sourceTree = "<group>"; };
+		CDF2EB6523D160B10090B280 /* TDNaviViewCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDNaviViewCollectionCell.h; sourceTree = "<group>"; };
+		CDF2EB6623D160B10090B280 /* TDNaviViewCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDNaviViewCollectionCell.m; sourceTree = "<group>"; };
+		CDF2EB6723D160B10090B280 /* TDAllNaviButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAllNaviButtonView.h; sourceTree = "<group>"; };
+		CDF2EB6823D160B10090B280 /* TDAllNaviButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TDAllNaviButtonView.xib; sourceTree = "<group>"; };
+		CDF2EB6923D160B10090B280 /* TDCouponNaviCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDCouponNaviCollectionCell.m; sourceTree = "<group>"; };
+		CDF2EB6A23D160B10090B280 /* TDAllNaviCouponItemsLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAllNaviCouponItemsLayout.h; sourceTree = "<group>"; };
+		CDF2EB6B23D160B20090B280 /* TDAllNaviCouponItemsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAllNaviCouponItemsView.m; sourceTree = "<group>"; };
+		CDF2EB6C23D160B20090B280 /* TDCouponNaviCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDCouponNaviCollectionCell.h; sourceTree = "<group>"; };
+		CDF2EB6D23D160B20090B280 /* TDCouponNaviCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TDCouponNaviCollectionCell.xib; sourceTree = "<group>"; };
+		CDF2EB6E23D160B20090B280 /* TDAllNaviCouponItemsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAllNaviCouponItemsView.h; sourceTree = "<group>"; };
+		CDF2EB6F23D160B20090B280 /* TDCouponNaviView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDCouponNaviView.m; sourceTree = "<group>"; };
+		CDF2EB7023D160B20090B280 /* TDAllNaviButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAllNaviButtonView.m; sourceTree = "<group>"; };
+		CDF2EB7A23D161330090B280 /* TDCouponProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDCouponProtocol.h; sourceTree = "<group>"; };
+		CDF2EB7B23D1615F0090B280 /* TDMyCouponChannelListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDMyCouponChannelListModel.m; sourceTree = "<group>"; };
+		CDF2EB7C23D161600090B280 /* TDMyCouponChannelListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDMyCouponChannelListModel.h; sourceTree = "<group>"; };
+		CDF2EB7E23D1633D0090B280 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		CDF2EB7F23D1633E0090B280 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		CDF2EB8423D187DD0090B280 /* coupon_Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coupon_Btn.png; sourceTree = "<group>"; };
+		CDF2EB8523D187DE0090B280 /* coupon_Btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coupon_Btn@2x.png"; sourceTree = "<group>"; };
+		CDF2EB8623D187DE0090B280 /* coupon_Btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coupon_Btn@3x.png"; sourceTree = "<group>"; };
+		CDF2EB8A23D1880E0090B280 /* coupon_navi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coupon_navi@2x.png"; sourceTree = "<group>"; };
+		CDF2EB8B23D1880E0090B280 /* coupon_navi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coupon_navi.png; sourceTree = "<group>"; };
+		CDF2EB8C23D1880E0090B280 /* coupon_navi@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coupon_navi@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDF2EB2623D1605D0090B280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF2EB4123D1605F0090B280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF2EB4C23D1605F0090B280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDF2EB2023D1605D0090B280 = {
+			isa = PBXGroup;
+			children = (
+				CDF2EB2B23D1605D0090B280 /* JDMyCouponList */,
+				CDF2EB4723D1605F0090B280 /* JDMyCouponListTests */,
+				CDF2EB5223D1605F0090B280 /* JDMyCouponListUITests */,
+				CDF2EB2A23D1605D0090B280 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDF2EB2A23D1605D0090B280 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDF2EB2923D1605D0090B280 /* JDMyCouponList.app */,
+				CDF2EB4423D1605F0090B280 /* JDMyCouponListTests.xctest */,
+				CDF2EB4F23D1605F0090B280 /* JDMyCouponListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDF2EB2B23D1605D0090B280 /* JDMyCouponList */ = {
+			isa = PBXGroup;
+			children = (
+				CDF2EB6123D1607F0090B280 /* View */,
+				CDF2EB2C23D1605D0090B280 /* AppDelegate.h */,
+				CDF2EB2D23D1605D0090B280 /* AppDelegate.m */,
+				CDF2EB2F23D1605D0090B280 /* SceneDelegate.h */,
+				CDF2EB3023D1605D0090B280 /* SceneDelegate.m */,
+				CDF2EB3223D1605D0090B280 /* ViewController.h */,
+				CDF2EB3323D1605D0090B280 /* ViewController.m */,
+				CDF2EB3523D1605D0090B280 /* Main.storyboard */,
+				CDF2EB3823D1605F0090B280 /* Assets.xcassets */,
+				CDF2EB3A23D1605F0090B280 /* LaunchScreen.storyboard */,
+				CDF2EB3D23D1605F0090B280 /* Info.plist */,
+				CDF2EB3E23D1605F0090B280 /* main.m */,
+			);
+			path = JDMyCouponList;
+			sourceTree = "<group>";
+		};
+		CDF2EB4723D1605F0090B280 /* JDMyCouponListTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDF2EB4823D1605F0090B280 /* JDMyCouponListTests.m */,
+				CDF2EB4A23D1605F0090B280 /* Info.plist */,
+			);
+			path = JDMyCouponListTests;
+			sourceTree = "<group>";
+		};
+		CDF2EB5223D1605F0090B280 /* JDMyCouponListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDF2EB5323D1605F0090B280 /* JDMyCouponListUITests.m */,
+				CDF2EB5523D1605F0090B280 /* Info.plist */,
+			);
+			path = JDMyCouponListUITests;
+			sourceTree = "<group>";
+		};
+		CDF2EB6123D1607F0090B280 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDF2EB8423D187DD0090B280 /* coupon_Btn.png */,
+				CDF2EB8523D187DE0090B280 /* coupon_Btn@2x.png */,
+				CDF2EB8623D187DE0090B280 /* coupon_Btn@3x.png */,
+				CDF2EB8B23D1880E0090B280 /* coupon_navi.png */,
+				CDF2EB8A23D1880E0090B280 /* coupon_navi@2x.png */,
+				CDF2EB8C23D1880E0090B280 /* coupon_navi@3x.png */,
+				CDF2EB7F23D1633E0090B280 /* UIColor+Hex.h */,
+				CDF2EB7E23D1633D0090B280 /* UIColor+Hex.m */,
+				CDF2EB7C23D161600090B280 /* TDMyCouponChannelListModel.h */,
+				CDF2EB7B23D1615F0090B280 /* TDMyCouponChannelListModel.m */,
+				CDF2EB7A23D161330090B280 /* TDCouponProtocol.h */,
+				CDF2EB6723D160B10090B280 /* TDAllNaviButtonView.h */,
+				CDF2EB7023D160B20090B280 /* TDAllNaviButtonView.m */,
+				CDF2EB6823D160B10090B280 /* TDAllNaviButtonView.xib */,
+				CDF2EB6A23D160B10090B280 /* TDAllNaviCouponItemsLayout.h */,
+				CDF2EB6323D160B10090B280 /* TDAllNaviCouponItemsLayout.m */,
+				CDF2EB6E23D160B20090B280 /* TDAllNaviCouponItemsView.h */,
+				CDF2EB6B23D160B20090B280 /* TDAllNaviCouponItemsView.m */,
+				CDF2EB6C23D160B20090B280 /* TDCouponNaviCollectionCell.h */,
+				CDF2EB6923D160B10090B280 /* TDCouponNaviCollectionCell.m */,
+				CDF2EB6D23D160B20090B280 /* TDCouponNaviCollectionCell.xib */,
+				CDF2EB6223D160B10090B280 /* TDCouponNaviView.h */,
+				CDF2EB6F23D160B20090B280 /* TDCouponNaviView.m */,
+				CDF2EB6523D160B10090B280 /* TDNaviViewCollectionCell.h */,
+				CDF2EB6623D160B10090B280 /* TDNaviViewCollectionCell.m */,
+				CDF2EB6423D160B10090B280 /* TDNaviViewCollectionCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDF2EB2823D1605D0090B280 /* JDMyCouponList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF2EB5823D1605F0090B280 /* Build configuration list for PBXNativeTarget "JDMyCouponList" */;
+			buildPhases = (
+				CDF2EB2523D1605D0090B280 /* Sources */,
+				CDF2EB2623D1605D0090B280 /* Frameworks */,
+				CDF2EB2723D1605D0090B280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JDMyCouponList;
+			productName = JDMyCouponList;
+			productReference = CDF2EB2923D1605D0090B280 /* JDMyCouponList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDF2EB4323D1605F0090B280 /* JDMyCouponListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF2EB5B23D1605F0090B280 /* Build configuration list for PBXNativeTarget "JDMyCouponListTests" */;
+			buildPhases = (
+				CDF2EB4023D1605F0090B280 /* Sources */,
+				CDF2EB4123D1605F0090B280 /* Frameworks */,
+				CDF2EB4223D1605F0090B280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDF2EB4623D1605F0090B280 /* PBXTargetDependency */,
+			);
+			name = JDMyCouponListTests;
+			productName = JDMyCouponListTests;
+			productReference = CDF2EB4423D1605F0090B280 /* JDMyCouponListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDF2EB4E23D1605F0090B280 /* JDMyCouponListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF2EB5E23D1605F0090B280 /* Build configuration list for PBXNativeTarget "JDMyCouponListUITests" */;
+			buildPhases = (
+				CDF2EB4B23D1605F0090B280 /* Sources */,
+				CDF2EB4C23D1605F0090B280 /* Frameworks */,
+				CDF2EB4D23D1605F0090B280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDF2EB5123D1605F0090B280 /* PBXTargetDependency */,
+			);
+			name = JDMyCouponListUITests;
+			productName = JDMyCouponListUITests;
+			productReference = CDF2EB4F23D1605F0090B280 /* JDMyCouponListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDF2EB2123D1605D0090B280 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = tonbright;
+				TargetAttributes = {
+					CDF2EB2823D1605D0090B280 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					CDF2EB4323D1605F0090B280 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = CDF2EB2823D1605D0090B280;
+					};
+					CDF2EB4E23D1605F0090B280 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = CDF2EB2823D1605D0090B280;
+					};
+				};
+			};
+			buildConfigurationList = CDF2EB2423D1605D0090B280 /* Build configuration list for PBXProject "JDMyCouponList" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDF2EB2023D1605D0090B280;
+			productRefGroup = CDF2EB2A23D1605D0090B280 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDF2EB2823D1605D0090B280 /* JDMyCouponList */,
+				CDF2EB4323D1605F0090B280 /* JDMyCouponListTests */,
+				CDF2EB4E23D1605F0090B280 /* JDMyCouponListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDF2EB2723D1605D0090B280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF2EB3C23D1605F0090B280 /* LaunchScreen.storyboard in Resources */,
+				CDF2EB8F23D1880E0090B280 /* coupon_navi@3x.png in Resources */,
+				CDF2EB7723D160B20090B280 /* TDCouponNaviCollectionCell.xib in Resources */,
+				CDF2EB8723D187DE0090B280 /* coupon_Btn.png in Resources */,
+				CDF2EB8E23D1880E0090B280 /* coupon_navi.png in Resources */,
+				CDF2EB3923D1605F0090B280 /* Assets.xcassets in Resources */,
+				CDF2EB8D23D1880E0090B280 /* coupon_navi@2x.png in Resources */,
+				CDF2EB7223D160B20090B280 /* TDNaviViewCollectionCell.xib in Resources */,
+				CDF2EB8923D187DE0090B280 /* coupon_Btn@3x.png in Resources */,
+				CDF2EB8823D187DE0090B280 /* coupon_Btn@2x.png in Resources */,
+				CDF2EB7423D160B20090B280 /* TDAllNaviButtonView.xib in Resources */,
+				CDF2EB3723D1605D0090B280 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF2EB4223D1605F0090B280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF2EB4D23D1605F0090B280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDF2EB2523D1605D0090B280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF2EB7123D160B20090B280 /* TDAllNaviCouponItemsLayout.m in Sources */,
+				CDF2EB8023D1633E0090B280 /* UIColor+Hex.m in Sources */,
+				CDF2EB7D23D161600090B280 /* TDMyCouponChannelListModel.m in Sources */,
+				CDF2EB3423D1605D0090B280 /* ViewController.m in Sources */,
+				CDF2EB7823D160B20090B280 /* TDCouponNaviView.m in Sources */,
+				CDF2EB2E23D1605D0090B280 /* AppDelegate.m in Sources */,
+				CDF2EB7923D160B20090B280 /* TDAllNaviButtonView.m in Sources */,
+				CDF2EB3F23D1605F0090B280 /* main.m in Sources */,
+				CDF2EB7523D160B20090B280 /* TDCouponNaviCollectionCell.m in Sources */,
+				CDF2EB7623D160B20090B280 /* TDAllNaviCouponItemsView.m in Sources */,
+				CDF2EB7323D160B20090B280 /* TDNaviViewCollectionCell.m in Sources */,
+				CDF2EB3123D1605D0090B280 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF2EB4023D1605F0090B280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF2EB4923D1605F0090B280 /* JDMyCouponListTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF2EB4B23D1605F0090B280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF2EB5423D1605F0090B280 /* JDMyCouponListUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDF2EB4623D1605F0090B280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDF2EB2823D1605D0090B280 /* JDMyCouponList */;
+			targetProxy = CDF2EB4523D1605F0090B280 /* PBXContainerItemProxy */;
+		};
+		CDF2EB5123D1605F0090B280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDF2EB2823D1605D0090B280 /* JDMyCouponList */;
+			targetProxy = CDF2EB5023D1605F0090B280 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDF2EB3523D1605D0090B280 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDF2EB3623D1605D0090B280 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDF2EB3A23D1605F0090B280 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDF2EB3B23D1605F0090B280 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDF2EB5623D1605F0090B280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CDF2EB5723D1605F0090B280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDF2EB5923D1605F0090B280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JDMyCouponList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tonbright.JDMyCouponList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDF2EB5A23D1605F0090B280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JDMyCouponList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tonbright.JDMyCouponList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDF2EB5C23D1605F0090B280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JDMyCouponListTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tonbright.JDMyCouponListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JDMyCouponList.app/JDMyCouponList";
+			};
+			name = Debug;
+		};
+		CDF2EB5D23D1605F0090B280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JDMyCouponListTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tonbright.JDMyCouponListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JDMyCouponList.app/JDMyCouponList";
+			};
+			name = Release;
+		};
+		CDF2EB5F23D1605F0090B280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JDMyCouponListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tonbright.JDMyCouponListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JDMyCouponList;
+			};
+			name = Debug;
+		};
+		CDF2EB6023D1605F0090B280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JDMyCouponListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tonbright.JDMyCouponListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JDMyCouponList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDF2EB2423D1605D0090B280 /* Build configuration list for PBXProject "JDMyCouponList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF2EB5623D1605F0090B280 /* Debug */,
+				CDF2EB5723D1605F0090B280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF2EB5823D1605F0090B280 /* Build configuration list for PBXNativeTarget "JDMyCouponList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF2EB5923D1605F0090B280 /* Debug */,
+				CDF2EB5A23D1605F0090B280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF2EB5B23D1605F0090B280 /* Build configuration list for PBXNativeTarget "JDMyCouponListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF2EB5C23D1605F0090B280 /* Debug */,
+				CDF2EB5D23D1605F0090B280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF2EB5E23D1605F0090B280 /* Build configuration list for PBXNativeTarget "JDMyCouponListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF2EB5F23D1605F0090B280 /* Debug */,
+				CDF2EB6023D1605F0090B280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDF2EB2123D1605D0090B280 /* Project object */;
+}
